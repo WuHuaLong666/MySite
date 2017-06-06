@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../javascript/jQueryDemo.js"></script>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+<ul>
+<li>苹果</li>
+<li>香蕉</li>
+<li>桔子</li>
+<li>火龙果</li>
+<li>李子</li>
+<li>柠檬</li>
+<li>樱桃</li>
+<li>芒果</li>
+</ul>
+<ol>
+<li>to</li>
+<li>noto</li>
+<li>Apple<p><span></span></p></li>
+</ol>
+<div>
+		祖先元素
+		<p>
+			<label>孙元素</label> <span><label>后代元素</label></span>
+		</p>
+		<br /> <label>子元素</label> <label>子元素2</label> <label>子元素3</label> <label>子元素4</label>
+	</div>
+<p>邻居选择器测试!!</p>
+<div>
+<p style="display: none;">我是隐藏元素！</p>
+好好学习，
+天天向上！
+积极向上！
+</div>
+<input type="text" id="txt">
+<button typr="button" onclick="get_text()" >Go</button>
+<input type="button" onclick="Test()" value="标签选择器">
+<input type="button" value="邻居选择器" onclick="prevSelect()">
+<input type="button" value="隔壁选择器" onclick="gebiSelect()">
+<input type="button" value="父子选择器" onclick="childSelect()">
+<input type="button" value="祖先选择器" onclick="zuxianSelect()">
+<input type="button" value="过滤选择器" onclick="guolvSelect()">
+<input type="button" value="过滤选择器2" onclick="guoSelect()">
+<input type="button" value="指定过滤选择器" onclick="xiabiaoSelect()">
+<input type="button" value="按文字内容过滤器" onclick="containsDemo()">
+<input type="button" value="has过滤器" onclick="hasDemo()">
+<input type="button" value="隐藏过滤器" onclick="noneSelect()">
+<input type="button" value="属性选择器" onclick="attriSelect()">
+<input id="ipt" type="text" class="cls_ipt" >
+<input name="ipt1" type="text" class="cls_ipt" >
+<form id="pot">
+<input type="text">
+<input type="radio">
+<input type="radio" checked="checked">
+<input type="checkbox">
+<input type="checkbox" checked="checked">
+</form>
+<input type="button" value="表单选择器1" onclick="biaogeSelect()">
+<select id="pt" multiple="multiple">
+<option value="0">吉利</option>
+<option value="1" selected="selected">红旗</option>
+<option value="2">奇瑞</option>
+<option value="3" selected="selected">龙威</option>
+</select>
+<input type="button" value="表单选择器2" onclick="selectedSelect()">
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p id="intro">Hello world!!!</p>
+<div id="tr">
+<p>Hello world</p>
+<p>听说白雪公主在逃跑</p>
+</div>
+<p>欢迎来到<b>英雄</b>联盟！！</p>
+<p>我在东北玩泥巴，我在大连没有家！！</p>
+<script >
+<!-- getElementById()方法的使用 -->
+ /* x=document.getElementById("intro");
+ document.write("<p>你输入的文本"+x.innerHTML+"</p>"); */
+/*  y=document.getElementsByTagName("p");
+ document.write("第一个段落"+y[1].innerHTML); */
+ t=document.getElementById("tr").getElementsByTagName("p");
+ document.write("两个方法合并"+t[1].innerHTML);
+</script>
+</body>
+</html>

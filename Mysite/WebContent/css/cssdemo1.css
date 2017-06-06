@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+h1 {
+	color: pink;
+	font-family: 黑体;
+	font-weight: normal;
+}
+
+h6 {
+	/* font-weight: normal; */
+	/* font-weight: bold; */
+	/* 	font-weight:lighter; */
+	/* font-weight:900; */
+	/*   font-size:x-large; */
+	/*    打印 下划线 */
+	/*  text-decoration:underline; */
+	/*  打印上划线
+   text-decoration:overline; */
+	/*  text-decoration:line-through; */
+	id="cesghi";
+	font: italic bold 12pt 宋体;
+	word-spacing: 1cm;
+	letter-spacing: 5mm;
+	line-height: 11pt;
+	background-color: red;
+	/*设置此标签内容的位子 */
+	position: absolute;
+	left:100px;
+	top:600px;
+	width: 200px;
+	height:200px; 
+}
+
+p {
+	/* font-style: oblique;
+	font-fmily: 正体;
+	color: blue;
+	font-variant: 300%;
+	<!--控制字母的大小写-->
+	text-transform: capitalize; */
+/* 	设置此标签内容的位子 */
+	position: relative;
+	left:100px;
+	top:800px;
+	width: 200px;
+	height:200px; 
+	background-color: blue;
+	
+}
+
+.class {
+	font-fmily: 楷体;
+	color: pink;
+}
+
+.pp {
+	color: lime;
+	font-family: 黑体
+}
+
+.pt {
+	color: bule;
+	font-family: 仿宋
+}
+
+p i {
+	color: green;
+	font-family: 仿宋;
+}
+
+div {
+	/* text-align: justify; */
+	vertical-align: sub;
+	text-indent: 10%;
+	cursor:pointer;
+}
+
+body {
+	/* background-color:pink|transparent;  */
+	background-image: url(../css/HTML.jpg);
+	
+	/* background-size:cover; */
+	 background-repeat:no-repeat;
+	background-position: 70px 100px;
+	repeat-y;
+	a:link;
+
+	
+}
